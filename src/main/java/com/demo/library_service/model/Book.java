@@ -66,7 +66,7 @@ public class Book {
 
     @Override
     public String toString() {
-        return "Stident{" + "id=" + id +
+        return "Book{" + "id=" + id +
                 ", name='" + name + '\'' +
                 ", email='" + author + '\'' +
                 ", price=" + price +
