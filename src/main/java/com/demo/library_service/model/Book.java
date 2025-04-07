@@ -47,7 +47,7 @@ public class Book {
     }
 
     // Getters
-    public Long getID () {
+    public Long getId () {
         return id;
     }
     public String getName () {
@@ -65,7 +65,7 @@ public class Book {
 
 
     // Setters
-    public void setID (Long id) {
+    public void setId (Long id) {
         this.id = id;
     }
     public void setName (String name) {
@@ -85,7 +85,7 @@ public class Book {
     public String toString() {
         return "Book{" + "id=" + id +
                 ", name='" + name + '\'' +
-                ", email='" + author + '\'' +
+                ", author='" + author + '\'' +
                 ", price=" + price +
                 ", in_stock+" + quantity + '}';
     }
